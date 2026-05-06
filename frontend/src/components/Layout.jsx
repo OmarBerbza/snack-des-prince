@@ -66,7 +66,7 @@ function Layout({ children }) {
         <div className="container footer-grid">
           <div>
             <h4 className="footer-brand">
-              👑 Snack des <span>Princes</span>
+              👑 Snack des <span>Princes</span> 👑
             </h4>
             <p>
               Le meilleur snack pizza de Massa, avec service rapide et prix
