@@ -11,7 +11,7 @@ export function useQuery() {
       try {
         const menu = await getMenu()
         setData(menu)
-      } catch (fetchError) {
+      } catch {
         setError('Unable to load menu. Please check backend server connection.')
       } finally {
         setLoading(false)

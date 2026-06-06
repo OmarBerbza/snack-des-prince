@@ -1,5 +1,6 @@
 import { createContext, useContext, useMemo, useState } from 'react'
 
+/* eslint-disable react-refresh/only-export-components */
 const CartContext = createContext(null)
 
 export function CartProvider({ children }) {
